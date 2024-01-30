@@ -8,7 +8,7 @@ const Navbar = () => {
     setNav(!Nav);
   };
   return (
-    <div className="flex justify-evenly items-center h-20 w-[75%] max-w-[1240px] mx-auto border-solid border-8 border-[#191919] text-[#f9f4f0] font-azeret bg-[#353535]">
+    <div className="flex mt-[20%] justify-evenly items-center h-20 w-[75%] max-w-[1240px] mx-auto border-solid border-8 border-[#191919] text-[#f9f4f0] font-azeret bg-[#353535]">
       <img
         src="https://see.fontimg.com/api/renderfont4/ZVd9K/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Um9oaXRoIGRhbmRp/rousset-bilast.png"
         alt="RTG"
@@ -25,16 +25,10 @@ const Navbar = () => {
       <div
         className={
           !Nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#111111] ease-in-out duration-300"
-            : "fixed left-[-100%]"
+            ? "fixed right-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-300"
+            : "fixed right-[-100%]"
         }
       >
-        <img
-          src="https://see.fontimg.com/api/renderfont4/ZVd9K/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Um9oaXRoIGRhbmRp/rousset-bilast.png"
-          alt="RTG"
-          width="100"
-          height="44"
-        />
         <li className="uppercase p-4">About</li>
         <li className="uppercase p-4">Projects</li>
         <li className="uppercase p-4">Resume</li>
