@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        azeret: ["Azeret Mono", "monospace"],
+        cutive: ["Cutive Mono", "monospace"],
+      },
+    },
   },
   plugins: [],
 };
