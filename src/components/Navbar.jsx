@@ -46,8 +46,8 @@ const Navbar = () => {
         <div
           className={
             Nav
-              ? "flex flex-col fixed left-0 top-0 w-[60%]  border-r border-r-gray-900 bg-black ease-in-out duration-300"
-              : "fixed left-[100%]"
+              ? "flex flex-col fixed mt-20 right-0 top-0 w-[30%]  border-r border-r-gray-900 bg-black ease-out-in duration-300"
+              : "fixed right-[-100%]"
           }
         >
           <a
