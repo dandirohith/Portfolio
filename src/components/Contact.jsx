@@ -19,7 +19,7 @@ const Contact = () => {
           <p className="font-cutive text-[#a2b2bc]">Rohith Dandi</p>
           <p className="font-cutive text-[#a2b2bc]">Phone: +91 9392358565</p>
           <p className="font-cutive text-[#a2b2bc]">
-            Email: rohith20ucse148@mahindrauniversity.edu.in
+            Email: rohithdandi2001@gmail.com
           </p>
           <div className="flex flex-row w-[250px] justify-evenly mt-2">
             <a href="">

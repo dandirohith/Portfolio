@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import background1 from "../artifacts/icon28.png";
+import background1 from "../artifacts/icon21.png";
 import About from "./About";
 
 const Navbar = () => {
