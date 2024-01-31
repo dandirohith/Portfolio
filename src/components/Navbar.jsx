@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import background1 from "../artifacts/icon22.png";
+import background1 from "../artifacts/icon28.png";
 import About from "./About";
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
         backgroundPosition: "center center",
       }}
     >
-      <div className="flex  justify-evenly items-center h-20 w-3/4 mt-20 max-w-[1240px] mx-auto border-solid border-8 border-[#191919] text-[#f9f4f0] font-azeret bg-[#353535]">
+      <div className="flex-1 flex justify-evenly items-center h-20 mt-40 mx-auto border-solid border-8 border-[#191919] text-[#f9f4f0] font-azeret bg-[#353535] w-full md:w-[75%] lg:w-[75%]">
         <img
           className="object-cover"
           src="https://see.fontimg.com/api/renderfont4/ZVd9K/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Um9oaXRoIGRhbmRp/rousset-bilast.png"
@@ -44,7 +44,7 @@ const Navbar = () => {
           <li className="uppercase p-4">About</li>
           <li className="uppercase p-4">Projects</li>
           <li className="uppercase p-4">Resume</li>
-          <li className="uppercase p-4"> Contact</li>
+          <li className="uppercase p-4">Contact</li>
         </div>
       </div>
       <About />
