@@ -11,13 +11,6 @@ const Navbar = () => {
     setNav(!Nav);
   };
 
-  const handleOpenPdf = () => {
-    // Specify the path to your PDF file
-    const pdfUrl = "/rohith_dandi_resume.pdf";
-
-    // Open the PDF in a new tab
-    const newTab = window.open(pdfUrl, "_blank");
-  };
   return (
     <div
       className="relative flex flex-col w-full"
@@ -57,16 +50,28 @@ const Navbar = () => {
               : "fixed left-[100%]"
           }
         >
-          <a className="uppercase p-4" href="#about">
+          <a
+            className="uppercase p-4"
+            href="#about"
+            onClick={(!Nav, HandleNav)}
+          >
             About
           </a>
-          <a className="uppercase p-4" href="#projects">
+          <a
+            className="uppercase p-4"
+            href="#projects"
+            onClick={(!Nav, HandleNav)}
+          >
             Projects
           </a>
-          <a className="uppercase p-4" href="/" onClick={handleOpenPdf}>
+          <a className="uppercase p-4" href={pdf}>
             Resume
           </a>
-          <a className="uppercase p-4" href="#contact">
+          <a
+            className="uppercase p-4"
+            href="#contact"
+            onClick={(!Nav, HandleNav)}
+          >
             Contact
           </a>
         </div>
