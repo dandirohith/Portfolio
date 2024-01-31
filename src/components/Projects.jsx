@@ -16,11 +16,14 @@ const projects = () => {
       <div className="flex mx-auto border-solid border-x-8 border-b-[40px] border-[#191919] text-[#f9f4f0] w-full md:w-3/4">
         <div className="flex-1 flex-col w-full">
           <div className="flex flex-col justify-center items-center p-4">
-            <div className="font-azeret text-2xl md:text-4xl p-10 ">
+            <div
+              id="projects"
+              className="font-azeret text-2xl md:text-4xl p-10 "
+            >
               Key Projects
             </div>
             <div className="flex flex-col w-[75%] items-center">
-              <div className="w-full bg-[#111111] items-center justify-between">
+              <div className="w-full bg-[#111111] pb-10">
                 <h2 className="font-azeret">Multistage Deep learning</h2>
                 <p className="font-italic ">
                   Guide: Prof. Arya kumar | Course Project: Deep learning
@@ -42,7 +45,7 @@ const projects = () => {
                   language generation for improved accuracy.
                 </p>
               </div>
-              <div className="w-full bg-[#111111]">
+              <div className="w-full bg-[#111111] pb-10">
                 <h2 className="font-azeret">
                   Decentralized Supply Chain Management Application
                 </h2>
