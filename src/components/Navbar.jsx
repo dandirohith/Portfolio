@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import background1 from "../artifacts/icon21.png";
 import About from "./About";
+import pdf from "../artifacts/rohith_dandi_resume.pdf";
 
 const Navbar = () => {
   const [Nav, setNav] = useState(false);
@@ -40,7 +41,7 @@ const Navbar = () => {
         <a className="hidden md:flex p-4" href="#projects">
           Projects
         </a>
-        <a className="hidden md:flex p-4" href="/" onClick={handleOpenPdf}>
+        <a className="hidden md:flex p-4" href={pdf}>
           Resume
         </a>
         <a className="hidden md:flex p-4" href="#contact">
