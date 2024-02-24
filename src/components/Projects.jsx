@@ -29,7 +29,7 @@ const projects = () => {
                   Guide: Prof. Arya kumar | Course Project: Deep learning
                 </p>
                 <p className="font-cutive text-[#a2b2bc]">
-                  •Stage-1: The construction and optimization of an Artificial
+                  • Stage-1: The construction and optimization of an Artificial
                   Neural Network (ANN) for regression tasks, leveraging
                   vectorization in Python without the use of deep learning
                   libraries.
@@ -47,18 +47,19 @@ const projects = () => {
               </div>
               <div className="w-full bg-[#111111] pb-10">
                 <h2 className="font-azeret">
-                  Decentralized Supply Chain Management Application
+                  Interpretable Face Representation Learning with Explainable AI
+                  |
                 </h2>
-                <p className="font-italic ">
-                  Guide: Prof. Raghu Kishore | Course Project: Crypography &
-                  Network Security
+                <p className="font-italic ">Guide: Prof. Nidhi Goyal |</p>
+                <p className="font-cutive text-[#a2b2bc]">
+                  • In this ongoing project, I’m utilizing Python, Computer
+                  Vision, and Pytorch to pioneer Explainable AI (XAI)
+                  applications in face representation learning. Focused on
+                  enhancing interpretability.
                 </p>
                 <p className="font-cutive text-[#a2b2bc]">
-                  A smart contract-based solution designed for decentralized
-                  supply chain management. It utilizes JavaScript, Solidity,
-                  Node.JS, Truffle, and Metamask to implement features such as
-                  tracking the movement of goods, verifying authenticity, and
-                  recording transactional information on the blockchain.
+                  • The goal is to make complex face representation tasks more
+                  transparent and applicable for real-world scenarios.
                 </p>
               </div>
               <div className="font-azeret text-2xl md:text-4xl p-10">
