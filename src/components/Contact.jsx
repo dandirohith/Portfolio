@@ -22,7 +22,7 @@ const Contact = () => {
             Email: rohithdandi2001@gmail.com
           </p>
           <div className="flex flex-row w-[250px] justify-evenly mt-2">
-            <a href="">
+            <a href="https://github.com/dandirohith">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -33,7 +33,7 @@ const Contact = () => {
               </svg>
             </a>
 
-            <a href="">
+            <a href="https://github.com/dandirohith">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
