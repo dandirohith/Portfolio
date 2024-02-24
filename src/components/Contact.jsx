@@ -44,10 +44,7 @@ const Contact = () => {
               </svg>
             </a>
 
-            <a
-              href="https://in.linkedin.com/in/rohith-dandi-17d12"
-              target="_blank"
-            >
+            <a href="https://in.linkedin.com/in/rohith-dandi-17d12">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -58,7 +55,7 @@ const Contact = () => {
               </svg>
             </a>
 
-            <a href="https://github.com/dandirohith" target="_blank">
+            <a href="https://github.com/dandirohith">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
