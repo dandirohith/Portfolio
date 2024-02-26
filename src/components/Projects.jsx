@@ -36,9 +36,7 @@ const projects = () => {
                 </p>
                 <p className="font-cutive text-[#a2b2bc]">
                   • Stage-2: Neural machine translation using Python code
-                  provided in a book chapter by Jason Brown Lee • Stage-3:
-                  Extended the stage-2 to incorporate conditional language
-                  generation for improved accuracy.
+                  provided in a book chapter by Jason Brown Lee.
                 </p>
                 <p className="font-cutive text-[#a2b2bc]">
                   • Stage-3: Extended the stage-2 to incorporate conditional
