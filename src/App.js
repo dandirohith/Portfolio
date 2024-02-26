@@ -3,13 +3,26 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+function Home() {
+  return (
+    <>
+      <Navbar />
+      <Projects />
+      <Contact />
+    </>
+  );
+}
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Projects />
-      <Contact />
+      <Router>
+        <Routes>
+          <Route path="/Portfolio" element={<Home />}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }

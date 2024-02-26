@@ -1,6 +1,7 @@
 import React from "react";
 import background2 from "../artifacts/icon3.png";
 import background3 from "../artifacts/icon25.png";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = () => {
   return (
@@ -22,12 +23,14 @@ const projects = () => {
             >
               Key Projects
             </div>
-            <div className="flex flex-col w-[75%] items-center">
+            <div className="flex flex-col sm:w-[75%] items-center">
               <div className="w-full bg-[#111111] pb-10">
-                <h2 className="font-azeret">Multistage Deep learning</h2>
-                <p className="font-italic ">
-                  Guide: Prof. Arya kumar | Course Project: Deep learning
-                </p>
+                <div className=" flex flex-col ">
+                  <h2 className="font-azeret">Multistage Deep learning</h2>
+                  <p className="font-italic ">
+                    Guide: Prof. Arya kumar | Course Project: Deep learning
+                  </p>
+                </div>
                 <p className="font-cutive text-[#a2b2bc]">
                   • Stage-1: The construction and optimization of an Artificial
                   Neural Network (ANN) for regression tasks, leveraging
@@ -42,6 +45,14 @@ const projects = () => {
                   • Stage-3: Extended the stage-2 to incorporate conditional
                   language generation for improved accuracy.
                 </p>
+                <div className="flex">
+                  <a
+                    className="ml-auto px-2 py-1 border rounded-md border-[#f9f4f0] text-[#f9f4f0] font-bold hover:bg-gray-800"
+                    href="https://github.com/dandirohith/Multi-Stage-Deep-Learning-Project"
+                  >
+                    Code
+                  </a>
+                </div>
               </div>
               <div className="w-full bg-[#111111] pb-10">
                 <h2 className="font-azeret">
@@ -59,6 +70,25 @@ const projects = () => {
                   • The goal is to make complex face representation tasks more
                   transparent and applicable for real-world scenarios.
                 </p>
+                <div className="flex">
+                  <a
+                    className="ml-auto px-2 py-1 border rounded-md border-[#f9f4f0] text-[#f9f4f0] font-bold hover:bg-gray-800"
+                    href="https://github.com/dandirohith/Explainable-Face-Recognition-XFR"
+                  >
+                    Code
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <a
+                  href="/allprojects"
+                  className="flex items-center px-2 py-1 border rounded-md border-[f9f4f0] font-bold text-[#f9f4f0] hover:bg-gray-800"
+                >
+                  View More
+                  <span className="ml-2">
+                    <FaExternalLinkAlt />
+                  </span>
+                </a>
               </div>
               <div className="font-azeret text-2xl md:text-4xl p-10">
                 Publications

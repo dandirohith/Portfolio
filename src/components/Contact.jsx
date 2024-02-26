@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative flex flex-col w-full h-[250px] object-cover"
+      className="relative flex flex-col w-full h-[290px] object-cover"
       style={{
         backgroundImage: `url(${background4})`,
         backgroundSize: "100% 60%",
@@ -21,6 +21,12 @@ const Contact = () => {
           <p className="font-cutive text-[#a2b2bc]">
             Email: rohithdandi2001@gmail.com
           </p>
+          <p className="font-mono">© 2024 Rohith Dandi. All Rights Reserved.</p>
+          <div className="flex text-[#a2b2bc]">
+            <h2 className="font-mono">Made with </h2>
+            <h2 className="text-danger"> ❤ </h2>
+            <h2 className="font-mono">, Designed and Built from Scratch!</h2>
+          </div>
           <div className="flex flex-row w-[250px] justify-evenly mt-2">
             <a href="https://github.com/dandirohith">
               <svg
