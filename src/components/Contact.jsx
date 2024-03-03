@@ -21,11 +21,13 @@ const Contact = () => {
           <p className="font-cutive text-[#a2b2bc]">
             Email: rohithdandi2001@gmail.com
           </p>
-          <p className="font-mono">© 2024 Rohith Dandi. All Rights Reserved.</p>
-          <div className="flex text-[#a2b2bc]">
+          <p className="font-mono text-[15px]">
+            © 2024 Rohith Dandi. All Rights Reserved.
+          </p>
+          <div className="flex flex-1 text-[#a2b2bc] text-[15px]">
             <h2 className="font-mono">Made with </h2>
             <h2 className="text-danger"> ❤ </h2>
-            <h2 className="font-mono">, Designed and Built from Scratch!</h2>
+            <h2 className="font-mono">Designed and Built from Scratch!</h2>
           </div>
           <div className="flex flex-row w-[250px] justify-evenly mt-2">
             <a href="https://github.com/dandirohith">
