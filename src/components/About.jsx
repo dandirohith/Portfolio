@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex mx-auto border-solid border-x-8 border-[#191919] text-[#f9f4f0] w-full md:w-3/4 sm:bg-[#111111]"
+      className="flex mx-auto border-solid border-x-8 border-[#191919] text-[#f9f4f0] w-full md:w-3/4 h-screen sm:bg-[#111111]"
     >
       <div className="flex flex-col w-full lg:flex-row justify-center items-center py-8">
         <div className="flex justify-center items-center w-full font-azeret p-4 ">
@@ -14,7 +14,7 @@ const About = () => {
             Centrale Pursuing Major In CSE Department.
           </div>
         </div>
-        <div className="w-1/2 lg:w-full">
+        <div className="w-3/4 lg:w-full">
           <img className="flex-1" src={dp} alt="/" />
         </div>
       </div>

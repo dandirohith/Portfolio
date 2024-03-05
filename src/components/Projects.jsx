@@ -6,7 +6,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const projects = () => {
   return (
     <div
-      className="relative flex flex-col w-full  object-cover"
+      className="relative flex flex-col w-full"
       style={{
         backgroundImage: `url(${background2}),url(${background3})`,
         backgroundSize: "20% 20%,90% 90%",
