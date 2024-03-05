@@ -14,7 +14,7 @@ const projects = () => {
         backgroundPosition: "top left,center",
       }}
     >
-      <div className="flex mx-auto border-solid border-x-8 border-b-[40px] border-[#191919] text-[#f9f4f0] w-full md:w-3/4">
+      <div className="flex mx-auto border-solid border-x-8 border-b-[40px] border-[#191919] text-[#f9f4f0] w-full sm:w-3/4">
         <div className="flex-1 flex-col w-full">
           <div className="flex flex-col justify-center items-center p-4">
             <div

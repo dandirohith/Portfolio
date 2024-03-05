@@ -21,7 +21,7 @@ const Navbar = () => {
         backgroundPosition: "center center",
       }}
     >
-      <div className="flex-1 flex justify-evenly items-center h-20 sm:mt-40 mx-auto border-solid border-8 border-[#191919] text-[#f9f4f0] font-azeret bg-[#353535] w-full md:w-[75%] lg:w-[75%]">
+      <div className="flex-1 flex justify-evenly items-center h-20 sm:mt-40 mx-auto border-solid border-8 border-[#191919] text-[#f9f4f0] font-azeret bg-[#353535] w-full sm:w-[75%] lg:w-[75%]">
         <img
           className="object-cover p-4"
           src="https://see.fontimg.com/api/renderfont4/ZVd9K/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Um9oaXRoIGRhbmRp/rousset-bilast.png"
